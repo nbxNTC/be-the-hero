@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FiArrowLeft } from 'react-icons/fi'
 import { Link, useHistory } from 'react-router-dom'; 
+import InputMask from 'react-input-mask';
 
 import api from '../../services/api';
 
@@ -15,7 +16,7 @@ export default function Register() {
     const [city, setCity] = useState('');
     const [uf, setUf] = useState('');
 
-    const history = useHistory();
+    const history = useHistory();    
     
     async function handleRegister(e) {
         e.preventDefault();
@@ -65,11 +66,13 @@ export default function Register() {
                         value={email}
                         onChange={e => setEmail(e.target.value)}
                     />
-                    <input 
-                        placeholder="Whatsapp" 
+                    <InputMask
+                        placeholder="Whatsapp"
+                        mask="(99)999999999" 
+                        maskChar="_"
                         value={whatsapp}
                         onChange={e => setWhatsapp(e.target.value)}
-                    />
+                    />                                                             
                     <div className="input-group">
                         <input 
                             placeholder="Cidade" 
@@ -80,6 +83,7 @@ export default function Register() {
                             placeholder="UF" 
                             style={{ width: 80 }} 
                             value={uf}
+                            maxLength={2}
                             onChange={e => setUf(e.target.value)}
                         />
                     </div>
