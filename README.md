@@ -1,4 +1,11 @@
-# Projeto de Estudo Be The Hero
+# Projeto de Be The Hero
 
-Com a ajuda da Semana OmniStack 11, este projeto foi criado com o objetivo de estudar as tecnologias NodeJS, React, React Native e SQLite.
+Com a ajuda da Semana OmniStack 11, este projeto foi criado com o objetivo de estudar as tecnologias mais utilizadas do mercado.
+
+## Tecnologias
+
+- NodeJS
+- React
+- React Native
+- SQLite.
  
