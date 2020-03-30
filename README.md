@@ -7,5 +7,9 @@ Com a ajuda da Semana OmniStack 11, este projeto foi criado com o objetivo de es
 - NodeJS
 - React
 - React Native
-- SQLite.
- 
+- SQLite
+
+## Telas
+
+![Image description](imgs/1-logon.png)
+
