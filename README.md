@@ -4,7 +4,7 @@ Com a ajuda da Semana OmniStack 11, este projeto foi criado com o objetivo de es
 
 ## Tecnologias
 
-- NodeJS
+- Node.js/Express.js
 - React
 - React Native
 - SQLite
